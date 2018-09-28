@@ -1,1 +1,6 @@
-# Changelog
+---
+id: changelog
+title: Changelog
+---
+
+## Changelog Info

@@ -1,0 +1,33 @@
+/* your custom css */
+
+@media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
+}
+
+@media only screen and (min-width: 1024px) {
+}
+
+@media only screen and (max-width: 1023px) {
+}
+
+@media only screen and (min-width: 1400px) {
+}
+
+@media only screen and (min-width: 1500px) {
+}
+
+.navPusher {
+    padding-top: 100px;
+}
+
+.headerTitleWithLogo {
+    display: none !important;
+}
+
+.fixedHeaderContainer {
+    min-height: 95px;
+    padding: 25px 0;
+}
+
+.fixedHeaderContainer header img {
+    height: 100px;
+}
