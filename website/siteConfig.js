@@ -24,7 +24,7 @@ const siteConfig = {
   title: 'Ever® Platform', // Title for your website.
   tagline: 'Documentation',
   url: 'https://docs.ever.co', // Your website URL
-  baseUrl: '/ever-docs/', // Base URL for your project */
+  baseUrl: '/', // Base URL for your project */
   
   // Used for publishing and more
   projectName: 'ever-docs',
