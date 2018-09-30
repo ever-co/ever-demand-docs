@@ -2,14 +2,15 @@
 
 ## Contact Us
 
-- [Ever Platform Gitter Chat](https://gitter.im/ever-co/ever)
+- [Gitter Chat](https://gitter.im/ever-co/ever)
+- [Discord Chat](https://discord.gg/msqRJ4w)
 - For business inquiries: <mailto:ever@ever.co>
 - Please report security vulnerabilities to <mailto:security@ever.co>
 
 ## License
 
 GNU General Public License, version 3, as published by the Free Software Foundation.  
-Please see LICENSE.md file for more details.
+Please see [LICENSE.md](LICENSE.md) file for more details.
 
 ## Trademarks
 

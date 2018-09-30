@@ -18,7 +18,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 Credits
 -------
 
-Please see CREDITS.md file for a list of libraries and software included in this program and information about licenses.
+Please see [CREDITS.md](CREDITS.md) file for a list of libraries and software included in this program and information about licenses.
 
 Trademarks
 ----------

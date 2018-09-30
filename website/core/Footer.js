@@ -44,14 +44,15 @@ class Footer extends React.Component {
               User Showcase
             </a>
             <a
-              href="http://stackoverflow.com/questions/tagged/"
+              href="http://stackoverflow.com/questions/tagged/ever"
               target="_blank"
               rel="noreferrer noopener">
               Stack Overflow
             </a>
-            <a href="https://discordapp.com/">Project Chat</a>
+            <a href="https://gitter.im/ever-co/ever">Gitter Chat</a>
+            <a href="https://discord.gg/msqRJ4w">Discord Chat</a>
             <a
-              href="https://twitter.com/"
+              href="https://twitter.com/evercoapp"
               target="_blank"
               rel="noreferrer noopener">
               Twitter
