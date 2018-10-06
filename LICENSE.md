@@ -24,4 +24,5 @@ Trademarks
 ----------
 
 **Ever**® is a registered trademark of [Ever Co. LTD](https://ever.co).
+The trademark may only be used with the written permission of Ever Co. LTD. and may not be used to promote or otherwise market competitive products or services.
 All other brand and product names are trademarks, registered trademarks or service marks of their respective holders.
