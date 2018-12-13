@@ -1,5 +1,7 @@
 # Documentation for Ever® Platform - https://docs.ever.co
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/ever-co/ever-docs.svg)](https://greenkeeper.io/)
+
 ## Contact Us
 
 - [Gitter Chat](https://gitter.im/ever-co/ever)
