@@ -1,6 +1,7 @@
 # Documentation for Ever® Platform - https://docs.ever.co
 
 [![Greenkeeper badge](https://badges.greenkeeper.io/ever-co/ever-docs.svg)](https://greenkeeper.io/)
+[![Known Vulnerabilities](https://snyk.io/test/github/ever-co/ever-docs/badge.svg?targetFile=website%2Fpackage.json)](https://snyk.io/test/github/ever-co/ever-docs?targetFile=website%2Fpackage.json)
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fever-co%2Fever-docs.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fever-co%2Fever-docs?ref=badge_shield)
 
 ## Contact Us
