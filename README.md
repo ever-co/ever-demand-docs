@@ -4,6 +4,8 @@
 [![Known Vulnerabilities](https://snyk.io/test/github/ever-co/ever-docs/badge.svg?targetFile=website%2Fpackage.json)](https://snyk.io/test/github/ever-co/ever-docs?targetFile=website%2Fpackage.json)
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fever-co%2Fever-docs.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fever-co%2Fever-docs?ref=badge_shield)
 
+This website was created with [Docusaurus](https://docusaurus.io/).
+
 ## Contact Us
 
 - [Gitter Chat](https://gitter.im/ever-co/ever)
