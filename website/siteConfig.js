@@ -22,7 +22,7 @@ const users = [
 
 const siteConfig = {
   title: 'Ever® Platform', // Title for your website.
-  tagline: 'Documentation',
+  tagline: 'Open-Source, Real-Time, Reactive, On-Demand Commerce Platform build with TypeScript',
   url: 'https://docs.ever.co', // Your website URL
   baseUrl: '/', // Base URL for your project */
   
@@ -73,7 +73,7 @@ const siteConfig = {
   */
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
-  copyright: `Copyright © ${new Date().getFullYear()} Ever Co. LTD.`,
+  copyright: `Copyright © 2018-${new Date().getFullYear()} Ever Co. LTD.`,
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks.

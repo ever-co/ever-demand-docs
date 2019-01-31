@@ -59,7 +59,7 @@ const Logo = props => (
 
 const ProjectTitle = () => (
   <h2 className="projectTitle">
-    {siteConfig.title}
+    Ever<span className="projectTitleTM">®</span>&nbsp; Platform
     <small>{siteConfig.tagline}</small>
   </h2>
 );
@@ -79,10 +79,11 @@ class HomeSplash extends React.Component {
       <SplashContainer>
         {/*<Logo img_src={imgUrl('docusaurus.svg')} />*/}
         <div className="inner">
-          <ProjectTitle />
-          <PromoSection>                        
-            <Button href={docUrl('intro.html', language)}>Introduction</Button>            
+          <ProjectTitle />          
+          <PromoSection>
+            <Button href={docUrl('intro.html', language)}>Start BY Reading an Introduction</Button>                                  
           </PromoSection>
+          <div style={{paddingTop: 30 + 'px'}}><div><img src="/docs/assets/overview.jpg" /></div></div>
         </div>
       </SplashContainer>
     );

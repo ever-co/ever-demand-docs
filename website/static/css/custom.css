@@ -31,3 +31,25 @@
 .fixedHeaderContainer header img {
     height: 100px;
 }
+
+.nav-footer .createdWith {
+    color: rgba(255, 255, 255, 0.3);
+    text-align: center;
+    font-size: 80%;
+    padding-top: 6px;
+}
+
+.nav-footer .createdWith a {
+    color: rgba(255, 255, 255, 0.3); 
+}
+.nav-footer .createdWith img {
+    color: rgba(255, 255, 255, 0.3);
+    width: 16px;
+}
+
+.projectTitleTM {
+    position: absolute;
+    font-size: 40%;
+    margin-top: 15px;
+    margin-left: -5px;
+}

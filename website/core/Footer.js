@@ -8,9 +8,9 @@
 const React = require('react');
 
 class Footer extends React.Component {
-  docUrl(doc, language) {
-    const baseUrl = this.props.config.baseUrl;
-    return `${baseUrl}docs/${language ? `${language}/` : ''}${doc}`;
+        docUrl(doc, language) {
+                const baseUrl = this.props.config.baseUrl;
+                return `${baseUrl}docs/${language ? `${language}/` : ''}${doc}`;
   }
 
   pageUrl(doc, language) {
@@ -73,8 +73,9 @@ class Footer extends React.Component {
               Star
             </a>
           </div>
-        </section>        
+        </section>
         <section className="copyright">{this.props.config.copyright}</section>
+        <section className="createdWith">This website was created with <img src="/img/docusaurus.svg"></img> <a href="https://docusaurus.io" target="_blank">Docusaurus</a>.</section>
       </footer>
     );
   }
