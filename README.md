@@ -62,4 +62,5 @@ All other brand and product names are trademarks, registered trademarks or servi
 [![Greenkeeper badge](https://badges.greenkeeper.io/ever-co/ever-docs.svg)](https://greenkeeper.io/)
 [![Known Vulnerabilities](https://snyk.io/test/github/ever-co/ever-docs/badge.svg?targetFile=website%2Fpackage.json)](https://snyk.io/test/github/ever-co/ever-docs?targetFile=website%2Fpackage.json)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/724e0c8d88c8471eb6e902d4a6df49ef)](https://www.codacy.com/app/Ever/ever-docs?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=ever-co/ever-docs&amp;utm_campaign=Badge_Grade)
+[![DeepScan grade](https://deepscan.io/api/teams/3293/projects/4850/branches/38567/badge/grade.svg)](https://deepscan.io/dashboard#view=project&tid=3293&pid=4850&bid=38567)
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fever-co%2Fever-docs.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fever-co%2Fever-docs?ref=badge_shield)
