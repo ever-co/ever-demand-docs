@@ -49,6 +49,12 @@ This website was created with [Docusaurus](https://docusaurus.io/).
 GNU General Public License, version 3, as published by the Free Software Foundation.  
 Please see [LICENSE.md](LICENSE.md) file for more details.
 
+This program is free software: you can redistribute it and/or modify it under the terms of the corresponding licenses described in the LICENSE files located in software sub-folders and under the terms of licenses described in individual files.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+You should have received a copy of the relevant GNU Licenses along with this program. If not, see http://www.gnu.org/licenses/.
+
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fever-co%2Fever-docs.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fever-co%2Fever-docs?ref=badge_large)
 
 ## Trademarks
