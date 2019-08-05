@@ -5,6 +5,8 @@
 <url> <loc>https://docs.ever.co/users</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> <xhtml:link rel="alternate" hreflang="en" href="https://docs.ever.co/en/users" /> </url>
 <url> <loc>https://docs.ever.co/docs/changelog</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://docs.ever.co/docs/changelog" /> </url>
 <url> <loc>https://docs.ever.co/docs/contact-us</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://docs.ever.co/docs/contact-us" /> </url>
+<url> <loc>https://docs.ever.co/docs/diagrams/CQRS</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://docs.ever.co/docs/diagrams/CQRS" /> </url>
+<url> <loc>https://docs.ever.co/docs/diagrams/DIAGRAMS</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://docs.ever.co/docs/diagrams/DIAGRAMS" /> </url>
 <url> <loc>https://docs.ever.co/docs/intro</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://docs.ever.co/docs/intro" /> </url>
 <url> <loc>https://docs.ever.co/docs/support</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://docs.ever.co/docs/support" /> </url>
 </urlset>
