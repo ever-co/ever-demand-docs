@@ -8,6 +8,11 @@ The documentation available at **[https://docs.ever.co](https://docs.ever.co)**
 
 This website was created with [Docusaurus](https://docusaurus.io/).
 
+## Quick Start
+
+- clone and run `yarn install` from `website` folder
+- run with `yarn start` and browse locally on http://localhost:3000
+
 ## Collaborators and Contributors
 
 ### Development Team
