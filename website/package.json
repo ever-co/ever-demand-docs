@@ -39,7 +39,7 @@
 		"tcp-port-used": "^1.0.1"
 	},
 	"devDependencies": {		
-		"husky": "^3.0.2",
+		"husky": "^4.0.2",
 		"lint-staged": "^9.2.1",
 		"prettier": "^1.18.2",
 		"docusaurus": "^1.12.0"
