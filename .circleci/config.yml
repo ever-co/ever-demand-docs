@@ -1,7 +1,7 @@
 version: 2.1
 
 orbs:
-    node: circleci/node@4.1.0
+    node: circleci/node@5.0.0
 
 aliases:
   - &filter-only-master
@@ -14,8 +14,10 @@ aliases:
     command: |
         echo 'export NVM_DIR="/opt/circleci/.nvm"' >> $BASH_ENV
         echo ' [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"' >> $BASH_ENV
-        nvm install v14
-        nvm alias default v14
+        nvm install v16
+        nvm alias default v16
+        echo 'export NODE_OPTIONS=--max_old_space_size=7000' >> $BASH_ENV
+        echo 'export NG_CLI_ANALYTICS=false' >> $BASH_ENV
         source $BASH_ENV
         node --version
 
@@ -49,7 +51,7 @@ jobs:
 
     <<: *defaults
     machine:
-      image: ubuntu-2004:202010-01
+      image: ubuntu-2004:202111-01
     working_directory: /tmp/workspace/monorepo-root    
     steps:
       - checkout
