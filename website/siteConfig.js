@@ -27,7 +27,7 @@ const siteConfig = {
   baseUrl: '/', // Base URL for your project */
   
   // Used for publishing and more
-  projectName: 'ever-docs',
+  projectName: 'ever-demand-docs',
   organizationName: 'ever-co',
   // For top-level user or org sites, the organization is still the same.
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...
@@ -38,7 +38,7 @@ const siteConfig = {
     { doc: 'intro', label: 'Docs'},
     { page: "help", label: "Help" },
     { doc: 'support', label: 'Support'},
-    { href: "https://github.com/ever-co/ever", label: "GitHub" },
+    { href: "https://github.com/ever-co/ever-demand", label: "GitHub" },
     // {blog: false, label: 'Blog'},
     { search: true },
     { languages: true }    
@@ -94,7 +94,7 @@ const siteConfig = {
   ogImage: 'img/docusaurus.png',
   twitterImage: 'img/docusaurus.png',
   
-  repoUrl: 'https://github.com/ever-co/ever'
+  repoUrl: 'https://github.com/ever-co/ever-demand'
 };
 
 module.exports = siteConfig;

@@ -21,7 +21,7 @@ This website was created with [Docusaurus](https://docusaurus.io/).
 
 ## Contributors
 
-View full list of our [contributors](https://github.com/ever-co/ever-gauzy/graphs/contributors).
+View full list of our [contributors](https://github.com/ever-co/ever-demand/graphs/contributors).
 
 ## Contact Us
 
@@ -45,7 +45,7 @@ This program is distributed in the hope that it will be useful, but WITHOUT ANY 
 
 You should have received a copy of the relevant GNU Licenses along with this program. If not, see http://www.gnu.org/licenses/.
 
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fever-co%2Fever-docs.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fever-co%2Fever-docs?ref=badge_large)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fever-co%2Fever-demand-docs.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fever-co%2Fever-demand-docs?ref=badge_large)
 
 ## Trademarks
 
@@ -55,8 +55,8 @@ All other brand and product names are trademarks, registered trademarks or servi
 
 #### Copyright © 2018-present, Ever Co. LTD. All rights reserved.
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/ever-co/ever-docs.svg)](https://greenkeeper.io/)
-[![Known Vulnerabilities](https://snyk.io/test/github/ever-co/ever-docs/badge.svg?targetFile=website%2Fpackage.json)](https://snyk.io/test/github/ever-co/ever-docs?targetFile=website%2Fpackage.json)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/724e0c8d88c8471eb6e902d4a6df49ef)](https://www.codacy.com/app/Ever/ever-docs?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=ever-co/ever-docs&amp;utm_campaign=Badge_Grade)
+[![Greenkeeper badge](https://badges.greenkeeper.io/ever-co/ever-demand-docs.svg)](https://greenkeeper.io/)
+[![Known Vulnerabilities](https://snyk.io/test/github/ever-co/ever-demand-docs/badge.svg?targetFile=website%2Fpackage.json)](https://snyk.io/test/github/ever-co/ever-demand-docs?targetFile=website%2Fpackage.json)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/724e0c8d88c8471eb6e902d4a6df49ef)](https://www.codacy.com/app/Ever/ever-demand-docs?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=ever-co/ever-demand-docs&amp;utm_campaign=Badge_Grade)
 [![DeepScan grade](https://deepscan.io/api/teams/3293/projects/4850/branches/38567/badge/grade.svg)](https://deepscan.io/dashboard#view=project&tid=3293&pid=4850&bid=38567)
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fever-co%2Fever-docs.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fever-co%2Fever-docs?ref=badge_shield)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fever-co%2Fever-demand-docs.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fever-co%2Fever-demand-docs?ref=badge_shield)
