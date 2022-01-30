@@ -1,4 +1,4 @@
-# Documentation for Ever Platform
+# Documentation for Ever Demand Platform
 
 [![Join the community on Spectrum](https://withspectrum.github.io/badge/badge.svg)](https://spectrum.chat/ever)
 [![Gitter](https://badges.gitter.im/JoinChat.svg)](https://gitter.im/ever-co/ever?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
@@ -13,30 +13,15 @@ This website was created with [Docusaurus](https://docusaurus.io/).
 - clone and run `yarn install` from `website` folder
 - run with `yarn start` and browse locally on http://localhost:3000
 
-## Collaborators and Contributors
+## Contribute
 
-### Development Team
+-   Please give us :star: on Github, it **helps**!
+-   You are more than welcome to submit feature requests in the [separate repo](https://github.com/ever-co/feature-requests/issues)
+-   Pull requests are always welcome! Please base pull requests against the _develop_ branch and follow the [contributing guide](.github/CONTRIBUTING.md).
 
-#### Core
+## Contributors
 
--   Ruslan Konviser ([Evereq](https://github.com/evereq))
--   Michael Konviser ([Komish](https://github.com/MrKomish))
-
-#### Developers
-
--   Alish Meklyov ([Alish](https://github.com/AlishMekliov931))
--   Blagovest Gerov ([BlagovestGerov](https://github.com/BlagovestGerov))
--   Boyan Stanchev ([boyanstanchev](https://github.com/boyanstanchev))
--   Elvis Arabadjiyski ([Dreemsuncho](https://github.com/Dreemsuncho))
--   Emil Momchilov ([jew-er](https://github.com/jew-er))
-
-#### Graphic Designer & QA
-
--   Julia Konviser
-
-### Contributors
-
--   View all of our [contributors](https://github.com/ever-co/ever/graphs/contributors)
+View full list of our [contributors](https://github.com/ever-co/ever-gauzy/graphs/contributors).
 
 ## Contact Us
 
