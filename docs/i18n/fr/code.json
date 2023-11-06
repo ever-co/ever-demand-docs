@@ -1,15 +1,19 @@
 {
-  "help.message": { "message": "Besoin d'aide ?" },
+  "help.message": {
+    "message": "Besoin d'aide ?"
+  },
   "help.description": {
     "message": "Ce projet est maintenu par un groupe dédié de personnes."
   },
-  "home.message": { "message": "Plateforme Ever®" },
+  "home.message": {
+    "message": "Plateforme Ever®"
+  },
   "home.description": {
     "message": "Plateforme de commerce Open-Source, en temps réel, réactive et à la demande, construite avec TypeScript"
   },
   "homeActionLink.message": {
     "message": "Commencez par lire une introduction",
-    "description": "Commencez à lire la documentation"
+    "description": "Get started reading the docs"
   },
   "theme.ErrorPageContent.title": {
     "message": "Cette page a planté.",
