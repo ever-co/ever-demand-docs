@@ -93,7 +93,7 @@ const config: Config = {
         logo: {
           alt: "Ever® Platform Logo",
           src: "img/ever.png",
-          srcDark: "/ever-trans.png",
+          srcDark: "img/ever-dark.png",
         },
         items: [
           {
@@ -122,8 +122,8 @@ const config: Config = {
       footer: {
         style: "dark",
         logo: {
-          src: "/img/ever.png",
-          height:100,
+          src: "/img/ever-dark.png",
+          height:40,
         },
         links: [
           {
