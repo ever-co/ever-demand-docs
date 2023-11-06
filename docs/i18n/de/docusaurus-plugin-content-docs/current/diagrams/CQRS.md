@@ -1,3 +1,5 @@
+# CQRS Diagram
+
 ```mermaid
 sequenceDiagram
    participant Controller

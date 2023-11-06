@@ -1,7 +1,7 @@
 ---
 id: changelog
-title: Registro delle modifiche
+title: Changelog
 sidebar_position: 2
 ---
 
-## Informazioni sul registro delle modifiche
+## Changelog Info

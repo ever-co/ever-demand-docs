@@ -1,7 +1,7 @@
 ---
 id: changelog
-title: Journal des modifications
+title: Changelog
 sidebar_position: 2
 ---
 
-## Informations sur le journal des modifications
+## Changelog Info
