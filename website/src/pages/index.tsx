@@ -6,7 +6,7 @@
  */
 
 import Link from '@docusaurus/Link';
-import Translate, { translate } from '@docusaurus/Translate';
+import { translate } from '@docusaurus/Translate';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Heading from '@theme/Heading';
 import Layout from '@theme/Layout';
@@ -30,17 +30,17 @@ function HomepageHeader():JSX.Element {
       <div className="container">
         <Heading as="h1" className="hero__title text--primary">
 
-        {translate({id: 'home.message', message: siteConfig.title},currentLocale)}
+        {translate({id: 'home.message', message: 'Ever® Platform'},currentLocale)}
         </Heading>
         <p className="hero__subtitle text--primary">
-        {translate({id: 'home.mesdescriptionsage', message: siteConfig.tagline},currentLocale)}
+        {translate({id: 'home.description', message: 'Open-Source, Real-Time, Reactive, On-Demand Commerce Platform build with TypeScript'},currentLocale)}
          </p>
         <div className={styles.buttons}>
-
+        
           <Link
             className="button button--outline button--primary button--lg text-text--primary border--primary"
             to="/docs/intro">
-              <Translate id="homeActionLink.message" description='Get started reading the docs'>Start By Reading an Introduction</Translate>
+               {translate({id: 'homeActionLink.message', description: 'Get started reading the docs',message:'Start By Reading an Introduction'},currentLocale)}
                
           </Link>
         </div>

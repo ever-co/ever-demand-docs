@@ -1,0 +1,46 @@
+{
+  "link.title.Docs": {
+    "message": "Docs",
+    "description": "Le titre de la colonne des liens du pied de page avec le titre=Docs dans le pied de page"
+  },
+  "link.title.Community": {
+    "message": "Communauté",
+    "description": "Le titre de la colonne des liens du pied de page avec le titre=Communauté dans le pied de page"
+  },
+  "link.title.More": {
+    "message": "Plus",
+    "description": "Le titre de la colonne des liens du pied de page avec le titre=Plus dans le pied de page"
+  },
+  "link.item.label.Introduction": {
+    "message": "Introduction",
+    "description": "Le libellé du lien du pied de page avec le libellé=Introduction renvoyant vers /docs/intro"
+  },
+  "link.item.label.User Showcases": {
+    "message": "Présentations d'utilisateurs",
+    "description": "Le libellé du lien du pied de page avec le libellé=Présentations d'utilisateurs renvoyant vers /users"
+  },
+  "link.item.label.Stack Overflow": {
+    "message": "Stack Overflow",
+    "description": "Le libellé du lien du pied de page avec le libellé=Stack Overflow renvoyant vers https://stackoverflow.com/questions/tagged/ever-demand"
+  },
+  "link.item.label.Gitter Chat": {
+    "message": "Chat Gitter",
+    "description": "Le libellé du lien du pied de page avec le libellé=Chat Gitter renvoyant vers https://gitter.im/ever-co/ever-demand"
+  },
+  "link.item.label.Discord Chat": {
+    "message": "Chat Discord",
+    "description": "Le libellé du lien du pied de page avec le libellé=Chat Discord renvoyant vers https://discord.com/invite/msqRJ4w"
+  },
+  "link.item.label.Twitter": {
+    "message": "Twitter",
+    "description": "Le libellé du lien du pied de page avec le libellé=Twitter renvoyant vers https://twitter.com/gauzyplatform"
+  },
+  "link.item.label.GitHub": {
+    "message": "GitHub",
+    "description": "Le libellé du lien du pied de page avec le libellé=GitHub renvoyant vers https://github.com/ever-co/ever-demand"
+  },
+  "copyright": {
+    "message": "Droits d'auteur © 2018-2023 Ever Co. LTD.<br/>Ce site web a été créé avec <img src=\"/img/docusaurus.svg\" width=\"20\"> Docusaurus.",
+    "description": "Le droit d'auteur du pied de page"
+  }
+}

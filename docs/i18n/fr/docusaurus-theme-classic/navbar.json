@@ -1,0 +1,22 @@
+{
+  "logo.alt": {
+    "message": "Logo de la plateforme Ever®",
+    "description": "Texte alternatif du logo de la barre de navigation"
+  },
+  "item.label.Docs": {
+    "message": "Documentation",
+    "description": "Élément de la barre de navigation avec le label Documentation"
+  },
+  "item.label.Help": {
+    "message": "Aide",
+    "description": "Élément de la barre de navigation avec le label Aide"
+  },
+  "item.label.Support": {
+    "message": "Support",
+    "description": "Élément de la barre de navigation avec le label Support"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "Élément de la barre de navigation avec le label GitHub"
+  }
+}

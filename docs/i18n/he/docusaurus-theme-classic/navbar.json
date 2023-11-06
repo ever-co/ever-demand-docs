@@ -1,0 +1,22 @@
+{
+  "logo.alt": {
+    "message": "לוגו פלטפורמת Ever®",
+    "description": "תיאור חלופי של לוגו תפריט הניווט"
+  },
+  "item.label.Docs": {
+    "message": "מסמכים",
+    "description": "פריט תפריט הניווט עם תווית מסמכים"
+  },
+  "item.label.Help": {
+    "message": "עזרה",
+    "description": "פריט תפריט הניווט עם תווית עזרה"
+  },
+  "item.label.Support": {
+    "message": "תמיכה",
+    "description": "פריט תפריט הניווט עם תווית תמיכה"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "פריט תפריט הניווט עם תווית GitHub"
+  }
+}

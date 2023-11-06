@@ -1,0 +1,22 @@
+{
+  "logo.alt": {
+    "message": "Ever® Platform Logo",
+    "description": "De alt-tekst van het navigatiemenu-logo"
+  },
+  "item.label.Docs": {
+    "message": "Documentatie",
+    "description": "Navigatiemenu-item met label Documentatie"
+  },
+  "item.label.Help": {
+    "message": "Help",
+    "description": "Navigatiemenu-item met label Help"
+  },
+  "item.label.Support": {
+    "message": "Ondersteuning",
+    "description": "Navigatiemenu-item met label Ondersteuning"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "Navigatiemenu-item met label GitHub"
+  }
+}

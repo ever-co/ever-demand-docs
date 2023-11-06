@@ -5,6 +5,7 @@
  * LICENSE file in the root directory of this source tree.
  */
 
+import { translate } from '@docusaurus/Translate';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Heading from '@theme/Heading';
 import Layout from '@theme/Layout';
@@ -15,13 +16,18 @@ import styles from './index.module.css';
 
 
 function HelpPageHeader() {
+  const {i18n} = useDocusaurusContext();
+  const currentLocale = i18n.currentLocale;
   return (
     <header className={clsx('hero ', styles.heroBanner)}>
       <div className="container text--left">
         <Heading as="h2"  className="hero__title">
-        Need help?
+
+        {translate({id: 'help.message', message: 'Need help?'},currentLocale)}
         </Heading>
-        <p className="hero__subtitle">This project is maintained by a dedicated group of people.</p>
+        <p className="hero__subtitle">
+        {translate({id: 'help.description', message: 'This project is maintained by a dedicated group of people.'},currentLocale)}
+         </p>
       </div>
     </header>
   );
