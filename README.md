@@ -10,12 +10,12 @@ This website was created with [Docusaurus](https://docusaurus.io/).
 
 ## Quick Start
 
-- clone and run `yarn install` from `website` folder
+- clone and run `yarn install` from the `website` folder
 - run with `yarn start` and browse locally on http://localhost:3000
 
 ## Contribute
 
--   Please give us :star: on Github, it **helps**!
+-   Please give us a :star: on Github, it **helps**!
 -   You are more than welcome to submit feature requests in the [separate repo](https://github.com/ever-co/feature-requests/issues)
 -   Pull requests are always welcome! Please base pull requests against the _develop_ branch and follow the [contributing guide](.github/CONTRIBUTING.md).
 
@@ -43,7 +43,7 @@ See more details in the [LICENSE](LICENSE.md).
 
 In a production setup, all client-side to server-side (backend, APIs) communications should be encrypted using HTTPS/WSS/SSL (REST APIs, GraphQL endpoint, Socket.io WebSockets, etc.).
 
-If you discover any issue regarding security, please disclose the information responsibly by sending an email to <mailto:security@ever.co> or on  [![huntr](https://cdn.huntr.dev/huntr_security_badge_mono.svg)](https://huntr.dev) and not by creating a GitHub issue.
+If you discover any issue regarding security, please disclose the information responsibly by sending an email to <mailto:security@ever.co> and not by creating a GitHub issue.
 
 ## License
 
@@ -63,10 +63,9 @@ You should have received a copy of the relevant GNU Licenses along with this pro
 ## Trademarks
 
 **Ever**® is a registered trademark of [Ever Co. LTD](https://ever.co).  
-**Ever® Demand™**, **Ever® Gauzy™** and **Ever® OpenSaaS™**  are all trademarks of [Ever Co. LTD](https://ever.co).
+**Ever® Demand™**, **Ever® Teams™**, ** **Ever® Gauzy™** and **Ever® OpenSaaS™**  are all trademarks of [Ever Co. LTD](https://ever.co).
 
-The trademark may only be used with the written permission of Ever Co. LTD. and may not be used to promote or otherwise market competitive products or services.
-All other brand and product names are trademarks, registered trademarks, or service marks of their respective holders.
+The trademark may only be used with the written permission of Ever Co. LTD. and may not be used to promote or otherwise market competitive products or services. All other brand and product names are trademarks, registered trademarks, or service marks of their respective holders.
 
 #### Copyright © 2018-present, Ever Co. LTD. All rights reserved.
 
