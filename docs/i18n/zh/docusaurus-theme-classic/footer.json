@@ -1,0 +1,46 @@
+{
+  "link.title.Docs": {
+    "message": "文档",
+    "description": "页脚链接标题Docs对应的列标题"
+  },
+  "link.title.Community": {
+    "message": "社区",
+    "description": "页脚链接标题Community对应的列标题"
+  },
+  "link.title.More": {
+    "message": "更多",
+    "description": "页脚链接标题More对应的列标题"
+  },
+  "link.item.label.Introduction": {
+    "message": "介绍",
+    "description": "页脚链接标签Introduction对应的链接，链接到/docs/intro"
+  },
+  "link.item.label.User Showcases": {
+    "message": "用户展示",
+    "description": "页脚链接标签User Showcases对应的链接，链接到/users"
+  },
+  "link.item.label.Stack Overflow": {
+    "message": "Stack Overflow",
+    "description": "页脚链接标签Stack Overflow对应的链接，链接到https://stackoverflow.com/questions/tagged/ever-demand"
+  },
+  "link.item.label.Gitter Chat": {
+    "message": "Gitter聊天",
+    "description": "页脚链接标签Gitter Chat对应的链接，链接到https://gitter.im/ever-co/ever-demand"
+  },
+  "link.item.label.Discord Chat": {
+    "message": "Discord聊天",
+    "description": "页脚链接标签Discord Chat对应的链接，链接到https://discord.com/invite/msqRJ4w"
+  },
+  "link.item.label.Twitter": {
+    "message": "Twitter",
+    "description": "页脚链接标签Twitter对应的链接，链接到https://twitter.com/gauzyplatform"
+  },
+  "link.item.label.GitHub": {
+    "message": "GitHub",
+    "description": "页脚链接标签GitHub对应的链接，链接到https://github.com/ever-co/ever-demand"
+  },
+  "copyright": {
+    "message": "版权所有 © 2018-2023 Ever Co. LTD.<br/>本网站使用 <img src=\"/img/docusaurus.svg\" width=\"20\"> Docusaurus 创建。",
+    "description": "页脚版权声明"
+  }
+}

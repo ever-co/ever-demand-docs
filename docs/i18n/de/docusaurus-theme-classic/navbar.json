@@ -1,0 +1,22 @@
+{
+  "logo.alt": {
+    "message": "Ever® Plattform-Logo",
+    "description": "Der Alt-Text des Navigationslogos"
+  },
+  "item.label.Docs": {
+    "message": "Dokumentation",
+    "description": "Navigationspunkt mit der Bezeichnung Dokumentation"
+  },
+  "item.label.Help": {
+    "message": "Hilfe",
+    "description": "Navigationspunkt mit der Bezeichnung Hilfe"
+  },
+  "item.label.Support": {
+    "message": "Support",
+    "description": "Navigationspunkt mit der Bezeichnung Support"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "Navigationspunkt mit der Bezeichnung GitHub"
+  }
+}

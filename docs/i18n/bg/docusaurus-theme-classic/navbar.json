@@ -1,0 +1,22 @@
+{
+  "logo.alt": {
+    "message": "Лого на платформата Ever®",
+    "description": "Алтернативен текст на логото в навигационното меню"
+  },
+  "item.label.Docs": {
+    "message": "Документация",
+    "description": "Елемент в навигационното меню с етикет Документация"
+  },
+  "item.label.Help": {
+    "message": "Помощ",
+    "description": "Елемент в навигационното меню с етикет Помощ"
+  },
+  "item.label.Support": {
+    "message": "Поддръжка",
+    "description": "Елемент в навигационното меню с етикет Поддръжка"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "Елемент в навигационното меню с етикет GitHub"
+  }
+}

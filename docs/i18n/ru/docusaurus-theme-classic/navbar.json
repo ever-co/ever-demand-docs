@@ -1,0 +1,22 @@
+{
+  "logo.alt": {
+    "message": "Логотип платформы Ever®",
+    "description": "Альтернативный текст для логотипа навигационной панели"
+  },
+  "item.label.Docs": {
+    "message": "Документация",
+    "description": "Пункт навигационной панели с меткой Документация"
+  },
+  "item.label.Help": {
+    "message": "Помощь",
+    "description": "Пункт навигационной панели с меткой Помощь"
+  },
+  "item.label.Support": {
+    "message": "Поддержка",
+    "description": "Пункт навигационной панели с меткой Поддержка"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "Пункт навигационной панели с меткой GitHub"
+  }
+}

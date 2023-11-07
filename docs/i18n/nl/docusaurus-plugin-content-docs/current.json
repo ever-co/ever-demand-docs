@@ -1,0 +1,10 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Ever Platform Diagrams": {
+    "message": "Ever Platform Diagrams",
+    "description": "The label for category Ever Platform Diagrams in sidebar tutorialSidebar"
+  }
+}

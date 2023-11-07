@@ -1,0 +1,46 @@
+{
+  "link.title.Docs": {
+    "message": "Documentatie",
+    "description": "De titel van de kolom met koppelingen onderaan de pagina met de titel=Documentatie in de voettekst"
+  },
+  "link.title.Community": {
+    "message": "Gemeenschap",
+    "description": "De titel van de kolom met koppelingen onderaan de pagina met de titel=Gemeenschap in de voettekst"
+  },
+  "link.title.More": {
+    "message": "Meer",
+    "description": "De titel van de kolom met koppelingen onderaan de pagina met de titel=Meer in de voettekst"
+  },
+  "link.item.label.Introduction": {
+    "message": "Introductie",
+    "description": "Het label van de koppeling onderaan de pagina met het label=Introductie dat verwijst naar /docs/intro"
+  },
+  "link.item.label.User Showcases": {
+    "message": "Gebruikerspresentaties",
+    "description": "Het label van de koppeling onderaan de pagina met het label=Gebruikerspresentaties dat verwijst naar /users"
+  },
+  "link.item.label.Stack Overflow": {
+    "message": "Stack Overflow",
+    "description": "Het label van de koppeling onderaan de pagina met het label=Stack Overflow dat verwijst naar https://stackoverflow.com/questions/tagged/ever-demand"
+  },
+  "link.item.label.Gitter Chat": {
+    "message": "Gitter Chat",
+    "description": "Het label van de koppeling onderaan de pagina met het label=Gitter Chat dat verwijst naar https://gitter.im/ever-co/ever-demand"
+  },
+  "link.item.label.Discord Chat": {
+    "message": "Discord Chat",
+    "description": "Het label van de koppeling onderaan de pagina met het label=Discord Chat dat verwijst naar https://discord.com/invite/msqRJ4w"
+  },
+  "link.item.label.Twitter": {
+    "message": "Twitter",
+    "description": "Het label van de koppeling onderaan de pagina met het label=Twitter dat verwijst naar https://twitter.com/gauzyplatform"
+  },
+  "link.item.label.GitHub": {
+    "message": "GitHub",
+    "description": "Het label van de koppeling onderaan de pagina met het label=GitHub dat verwijst naar https://github.com/ever-co/ever-demand"
+  },
+  "copyright": {
+    "message": "Auteursrecht © 2018-2023 Ever Co. LTD.<br/>Deze website is gemaakt met <img src=\"/img/docusaurus.svg\" width=\"20\"> Docusaurus.",
+    "description": "Het auteursrecht in de voettekst"
+  }
+}
