@@ -55,8 +55,7 @@ All other brand and product names are trademarks, registered trademarks or servi
 
 #### Copyright © 2018-present, Ever Co. LTD. All rights reserved.
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/ever-co/ever-demand-docs.svg)](https://greenkeeper.io/)
 [![Known Vulnerabilities](https://snyk.io/test/github/ever-co/ever-demand-docs/badge.svg?targetFile=website%2Fpackage.json)](https://snyk.io/test/github/ever-co/ever-demand-docs?targetFile=website%2Fpackage.json)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/724e0c8d88c8471eb6e902d4a6df49ef)](https://www.codacy.com/app/Ever/ever-demand-docs?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=ever-co/ever-demand-docs&amp;utm_campaign=Badge_Grade)
-[![DeepScan grade](https://deepscan.io/api/teams/3293/projects/4850/branches/38567/badge/grade.svg)](https://deepscan.io/dashboard#view=project&tid=3293&pid=4850&bid=38567)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/16495a65fe7140f8aea7e5227ea13150)](https://app.codacy.com/gh/ever-co/ever-demand-docs/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
+[![DeepScan grade](https://deepscan.io/api/teams/3293/projects/16701/branches/363421/badge/grade.svg)](https://deepscan.io/dashboard#view=project&tid=3293&pid=16701&bid=363421)
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fever-co%2Fever-demand-docs.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fever-co%2Fever-demand-docs?ref=badge_shield)
