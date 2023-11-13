@@ -8,9 +8,16 @@ import type * as Preset from '@docusaurus/preset-classic';
 import type { Config } from '@docusaurus/types';
 import { themes as prismThemes } from 'prism-react-renderer';
 
+require("dotenv").config();
 /** @type {import('@docusaurus/types').Config} */
 const config: Config = {
   plugins: [
+    [
+      "docusaurus-plugin-sentry",
+      {
+        DSN: process.env.NEXT_PUBLIC_SENTRY_DNS,
+      },
+    ],
     [require.resolve("@cmfcmf/docusaurus-search-local"), { indexDocs: true }],
   ],
   // Add custom scripts here that would be placed in <script> tags.
