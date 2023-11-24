@@ -70,7 +70,7 @@ jobs:
       - run:
           name: Deploying to GitHub Pages
           command: |
-            export NEXT_PUBLIC_SENTRY_DNS=d939c5ab3d436ff14bdb39fd4621634d@o51327.ingest.sentry.io/4506282602725376
+            export NEXT_PUBLIC_SENTRY_DNS=81327d085fa0354cccb8b4d79629ed06@o51327.ingest.sentry.io/4506283043717120
             export NODE_ENV=production
             git config --global user.email "evereq@users.noreply.github.com"
             git config --global user.name "Ruslan Konviser"
