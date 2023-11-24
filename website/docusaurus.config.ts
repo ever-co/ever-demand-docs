@@ -4,15 +4,15 @@
 // There are various equivalent ways to declare your Docusaurus config.
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
-import type * as Preset from '@docusaurus/preset-classic';
-import type { Config } from '@docusaurus/types';
-import { themes as prismThemes } from 'prism-react-renderer';
+import type * as Preset from "@docusaurus/preset-classic";
+import type { Config } from "@docusaurus/types";
+import { themes as prismThemes } from "prism-react-renderer";
 
 require("dotenv").config();
 /** @type {import('@docusaurus/types').Config} */
 const config: Config = {
   plugins: [
-    [
+    process.env.NODE_ENV === "production" && [
       "docusaurus-plugin-sentry",
       {
         DSN: process.env.NEXT_PUBLIC_SENTRY_DNS,
@@ -22,11 +22,12 @@ const config: Config = {
   ],
   // Add custom scripts here that would be placed in <script> tags.
   scripts: [{ src: "https://buttons.github.io/buttons.js", async: true }],
-  title: 'Ever® Platform', // Title for your website.
-  tagline: 'Open-Source, Real-Time, Reactive, On-Demand Commerce Platform build with TypeScript',
+  title: "Ever® Platform", // Title for your website.
+  tagline:
+    "Open-Source, Real-Time, Reactive, On-Demand Commerce Platform build with TypeScript",
   favicon: "img/favicon.png",
   // Set the production Url of your site here
-  url: 'https://docs.ever.co', // Your website URL
+  url: "https://docs.ever.co", // Your website URL
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
@@ -35,16 +36,16 @@ const config: Config = {
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "ever-co",
   // Used for publishing and more
-  projectName: 'ever-demand-docs',
+  projectName: "ever-demand-docs",
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
-  staticDirectories:['../docs/assets','static',],
+  staticDirectories: ["../docs/assets", "static"],
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    path:'../docs/i18n/',
+    path: "../docs/i18n/",
     defaultLocale: "en",
     locales: [
       "en",
@@ -67,12 +68,12 @@ const config: Config = {
     [
       "classic",
       /** @type {import('@docusaurus/preset-classic').Options} */
-      ({
+      {
         docs: {
-          exclude: ['**/i18n/**'],
+          exclude: ["**/i18n/**"],
           sidebarPath: "./sidebars.ts",
           // Please change this to your repo.
-          path:'../docs/',
+          path: "../docs/",
           // Remove this to remove the "edit this page" links.
           editUrl:
             "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
@@ -87,13 +88,13 @@ const config: Config = {
         theme: {
           customCss: "./src/css/custom.css",
         },
-      }  satisfies Preset.Options),
+      } satisfies Preset.Options,
     ],
   ],
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
-    ({
+    {
       // Replace with your project's social card
       image: "/overview.png",
       navbar: {
@@ -117,7 +118,7 @@ const config: Config = {
             position: "right",
           },
           {
-            href: 'https://github.com/ever-co/ever-demand',
+            href: "https://github.com/ever-co/ever-demand",
             label: "GitHub",
             position: "right",
           },
@@ -131,7 +132,7 @@ const config: Config = {
         style: "dark",
         logo: {
           src: "/img/ever-dark.png",
-          height:40,
+          height: 40,
         },
         links: [
           {
@@ -157,7 +158,7 @@ const config: Config = {
               {
                 label: "Gitter Chat",
                 href: "https://gitter.im/ever-co/ever-demand",
-              },              
+              },
               {
                 label: "Discord Chat",
                 href: "https://discord.com/invite/msqRJ4w",
@@ -173,7 +174,7 @@ const config: Config = {
             items: [
               {
                 label: "GitHub",
-                href:  'https://github.com/ever-co/ever-demand',
+                href: "https://github.com/ever-co/ever-demand",
               },
               {
                 html: `
@@ -188,7 +189,7 @@ const config: Config = {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
       },
-    }),
+    },
 };
 
 export default config;
