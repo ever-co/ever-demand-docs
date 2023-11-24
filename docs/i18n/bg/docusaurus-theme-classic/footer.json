@@ -1,0 +1,46 @@
+{
+  "link.title.Docs": {
+    "message": "Документи",
+    "description": "Заглавие на колоната с връзки в подвала с title=Документи в подвала"
+  },
+  "link.title.Community": {
+    "message": "Общност",
+    "description": "Заглавие на колоната с връзки в подвала с title=Общност в подвала"
+  },
+  "link.title.More": {
+    "message": "Повече",
+    "description": "Заглавие на колоната с връзки в подвала с title=Повече в подвала"
+  },
+  "link.item.label.Introduction": {
+    "message": "Въведение",
+    "description": "Етикет на връзката в подвала с етикет=Въведение, връзва се с /docs/intro"
+  },
+  "link.item.label.User Showcases": {
+    "message": "Примери на потребители",
+    "description": "Етикет на връзката в подвала с етикет=Примери на потребители, връзва се с /users"
+  },
+  "link.item.label.Stack Overflow": {
+    "message": "Stack Overflow",
+    "description": "Етикет на връзката в подвала с етикет=Stack Overflow, връзва се с https://stackoverflow.com/questions/tagged/ever-demand"
+  },
+  "link.item.label.Gitter Chat": {
+    "message": "Gitter Чат",
+    "description": "Етикет на връзката в подвала с етикет=Gitter Чат, връзва се с https://gitter.im/ever-co/ever-demand"
+  },
+  "link.item.label.Discord Chat": {
+    "message": "Discord Чат",
+    "description": "Етикет на връзката в подвала с етикет=Discord Чат, връзва се с https://discord.com/invite/msqRJ4w"
+  },
+  "link.item.label.Twitter": {
+    "message": "Twitter",
+    "description": "Етикет на връзката в подвала с етикет=Twitter, връзва се с https://twitter.com/gauzyplatform"
+  },
+  "link.item.label.GitHub": {
+    "message": "GitHub",
+    "description": "Етикет на връзката в подвала с етикет=GitHub, връзва се с https://github.com/ever-co/ever-demand"
+  },
+  "copyright": {
+    "message": "Авторско право © 2018-2023 Ever Co. LTD.<br/>Този уебсайт е създаден с <img src=\"/img/docusaurus.svg\" width=\"20\"> Docusaurus.",
+    "description": "Авторско право в подвала"
+  }
+}

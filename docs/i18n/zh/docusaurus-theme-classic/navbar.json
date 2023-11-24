@@ -1,0 +1,22 @@
+{
+  "logo.alt": {
+    "message": "Ever® 平台标志",
+    "description": "导航栏标志的替代文字"
+  },
+  "item.label.Docs": {
+    "message": "文档",
+    "description": "带有标签文档的导航栏项目"
+  },
+  "item.label.Help": {
+    "message": "帮助",
+    "description": "带有标签帮助的导航栏项目"
+  },
+  "item.label.Support": {
+    "message": "支持",
+    "description": "带有标签支持的导航栏项目"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "带有标签GitHub的导航栏项目"
+  }
+}

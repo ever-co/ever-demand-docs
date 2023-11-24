@@ -1,0 +1,46 @@
+{
+  "link.title.Docs": {
+    "message": "الوثائق",
+    "description": "عنوان عمود روابط التذييل بعنوان = الوثائق في التذييل"
+  },
+  "link.title.Community": {
+    "message": "المجتمع",
+    "description": "عنوان عمود روابط التذييل بعنوان = المجتمع في التذييل"
+  },
+  "link.title.More": {
+    "message": "المزيد",
+    "description": "عنوان عمود روابط التذييل بعنوان = المزيد في التذييل"
+  },
+  "link.item.label.Introduction": {
+    "message": "مقدمة",
+    "description": "تسمية رابط التذييل مع التسمية = مقدمة تربط بـ /docs/intro"
+  },
+  "link.item.label.User Showcases": {
+    "message": "عروض العرض للمستخدم",
+    "description": "تسمية رابط التذييل مع التسمية = عروض العرض للمستخدم تربط بـ /users"
+  },
+  "link.item.label.Stack Overflow": {
+    "message": "Stack Overflow",
+    "description": "تسمية رابط التذييل مع التسمية = Stack Overflow تربط بـ https://stackoverflow.com/questions/tagged/ever-demand"
+  },
+  "link.item.label.Gitter Chat": {
+    "message": "دردشة Gitter",
+    "description": "تسمية رابط التذييل مع التسمية = دردشة Gitter تربط بـ https://gitter.im/ever-co/ever-demand"
+  },
+  "link.item.label.Discord Chat": {
+    "message": "دردشة Discord",
+    "description": "تسمية رابط التذييل مع التسمية = دردشة Discord تربط بـ https://discord.com/invite/msqRJ4w"
+  },
+  "link.item.label.Twitter": {
+    "message": "تويتر",
+    "description": "تسمية رابط التذييل مع التسمية = تويتر تربط بـ https://twitter.com/gauzyplatform"
+  },
+  "link.item.label.GitHub": {
+    "message": "جيت هاب",
+    "description": "تسمية رابط التذييل مع التسمية = جيت هاب تربط بـ https://github.com/ever-co/ever-demand"
+  },
+  "copyright": {
+    "message": "حقوق الطبع والنشر © 2018-2023 Ever Co. LTD.<br/>تم إنشاء هذا الموقع بواسطة <img src=\"/img/docusaurus.svg\" width=\"20\"> Docusaurus.",
+    "description": "حقوق الطبع والنشر في التذييل"
+  }
+}
