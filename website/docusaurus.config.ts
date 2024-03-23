@@ -1,12 +1,5 @@
-// @ts-check
-// `@type` JSDoc annotations allow editor autocompletion and type checking
-// (when paired with `@ts-check`).
-// There are various equivalent ways to declare your Docusaurus config.
-// See: https://docusaurus.io/docs/api/docusaurus-config
-
-import type * as Preset from "@docusaurus/preset-classic";
 import type { Config } from "@docusaurus/types";
-import { themes as prismThemes } from "prism-react-renderer";
+import { themes as prismThemes } from 'prism-react-renderer';
 
 require("dotenv").config();
 /** @type {import('@docusaurus/types').Config} */
@@ -88,7 +81,7 @@ const config: Config = {
         theme: {
           customCss: "./src/css/custom.css",
         },
-      } satisfies Preset.Options,
+      }
     ],
   ],
 
@@ -97,6 +90,12 @@ const config: Config = {
     {
       // Replace with your project's social card
       image: "/overview.png",
+      
+    colorMode: {
+      defaultMode: 'dark',
+      disableSwitch: false,
+      respectPrefersColorScheme: false,
+    },
       navbar: {
         style: "primary",
         logo: {
