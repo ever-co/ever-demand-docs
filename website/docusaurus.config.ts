@@ -1,20 +1,19 @@
 import type { Config } from "@docusaurus/types";
 import { themes as prismThemes } from 'prism-react-renderer';
 
+const SENTRY_DNS = process.env.NEXT_PUBLIC_SENTRY_DNS || null;
 require("dotenv").config();
 /** @type {import('@docusaurus/types').Config} */
 const config: Config = {
   plugins: [
-    process.env.NODE_ENV === "production" && [
-      "docusaurus-plugin-sentry",
-      {
-        DSN: process.env.NEXT_PUBLIC_SENTRY_DNS,
-      },
-    ],
-    [
-      require.resolve("@cmfcmf/docusaurus-search-local"),
-      { indexDocs: true },
-    ],
+    SENTRY_DNS &&
+      process.env.NODE_ENV === "production" && [
+        "docusaurus-plugin-sentry",
+        {
+          DSN: process.env.NEXT_PUBLIC_SENTRY_DNS,
+        },
+      ],
+    [require.resolve("@cmfcmf/docusaurus-search-local"), { indexDocs: true }],
   ],
   // Add custom scripts here that would be placed in <script> tags.
   scripts: [{ src: "https://buttons.github.io/buttons.js", async: true }],
@@ -127,7 +126,6 @@ const config: Config = {
             label: "GitHub",
             position: "right",
             className: "header-github-link",
-            
           },
         ],
       },
