@@ -8,6 +8,7 @@
   text-align: center;
   position: relative;
   overflow: hidden;
+  margin-block: 2.5rem;
 }
 .navbar .clean-btn,
 .clean-btn {

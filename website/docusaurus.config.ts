@@ -11,7 +11,10 @@ const config: Config = {
         DSN: process.env.NEXT_PUBLIC_SENTRY_DNS,
       },
     ],
-    [require.resolve("@cmfcmf/docusaurus-search-local"), { indexDocs: true }],
+    [
+      require.resolve("@cmfcmf/docusaurus-search-local"),
+      { indexDocs: true },
+    ],
   ],
   // Add custom scripts here that would be placed in <script> tags.
   scripts: [{ src: "https://buttons.github.io/buttons.js", async: true }],
@@ -96,8 +99,7 @@ const config: Config = {
         respectPrefersColorScheme: false,
       },
       navbar: {
-        title: "Ever Demand",
-        style: "primary",
+        style: "dark",
         logo: {
           alt: "Ever® Demand Logo",
           src: "img/ever.png",
@@ -117,13 +119,15 @@ const config: Config = {
             position: "left",
           },
           {
-            href: "https://github.com/ever-co/ever-demand",
-            label: "GitHub",
+            type: "localeDropdown",
             position: "right",
           },
           {
-            type: "localeDropdown",
+            href: "https://github.com/ever-co/ever-demand",
+            label: "GitHub",
             position: "right",
+            className: "header-github-link",
+            
           },
         ],
       },
@@ -182,11 +186,12 @@ const config: Config = {
             ],
           },
         ],
-        copyright: `Copyright © 2018-${new Date().getFullYear()} Ever Co. LTD.<br/>This website was created with <img src="/img/docusaurus.svg" width="20"> Docusaurus.`,
+        copyright: `<p>Copyright © 2018-${new Date().getFullYear()} Ever Co. LTD.<br/>This website was created with</p> <p><img src="/img/docusaurus.svg" width="20"> Docusaurus.</p>`,
       },
+      themes: ["docusaurus-theme-redoc"],
       prism: {
         theme: prismThemes.github,
-        darkTheme: prismThemes.dracula,
+        darkTheme: prismThemes.oneDark,
       },
     },
 };
