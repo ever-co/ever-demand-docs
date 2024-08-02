@@ -5,14 +5,15 @@
  * LICENSE file in the root directory of this source tree.
  */
 
+import clsx from 'clsx';
+
 import Link from '@docusaurus/Link';
 import { translate } from '@docusaurus/Translate';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Heading from '@theme/Heading';
 import Layout from '@theme/Layout';
-import clsx from 'clsx';
-import styles from './index.module.css';
 
+import styles from './index.module.css';
 
 type FeatureItem = {
   title: string;
@@ -22,7 +23,6 @@ type FeatureItem = {
 
 
 function HomepageHeader():JSX.Element {
-  const {siteConfig} = useDocusaurusContext();
   const {i18n} = useDocusaurusContext();
   const currentLocale = i18n.currentLocale;
   return (
