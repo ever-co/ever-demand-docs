@@ -1,23 +1,25 @@
 import type { Config } from "@docusaurus/types";
 import { themes as prismThemes } from 'prism-react-renderer';
 
+const SENTRY_DNS = process.env.NEXT_PUBLIC_SENTRY_DNS || null;
 require("dotenv").config();
 /** @type {import('@docusaurus/types').Config} */
 const config: Config = {
   plugins: [
-    process.env.NODE_ENV === "production" && [
-      "docusaurus-plugin-sentry",
-      {
-        DSN: process.env.NEXT_PUBLIC_SENTRY_DNS,
-      },
-    ],
+    SENTRY_DNS &&
+      process.env.NODE_ENV === "production" && [
+        "docusaurus-plugin-sentry",
+        {
+          DSN: process.env.NEXT_PUBLIC_SENTRY_DNS,
+        },
+      ],
     [require.resolve("@cmfcmf/docusaurus-search-local"), { indexDocs: true }],
   ],
   // Add custom scripts here that would be placed in <script> tags.
   scripts: [{ src: "https://buttons.github.io/buttons.js", async: true }],
-  title: "Ever® Platform", // Title for your website.
+  title: "Ever® Demand Documentation", // Title for your website.
   tagline:
-    "Open-Source, Real-Time, Reactive, On-Demand Commerce Platform build with TypeScript",
+    "Open-Source, On-Demand Commerce Platform, Real-Time, Reactive build with TypeScript",
   favicon: "img/favicon.png",
   // Set the production Url of your site here
   url: "https://docs.ever.co", // Your website URL
@@ -68,8 +70,7 @@ const config: Config = {
           // Please change this to your repo.
           path: "../docs/",
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+          editUrl: "https://github.com/ever-co/ever-demand-docs",
         },
         blog: {
           showReadingTime: true,
@@ -79,9 +80,9 @@ const config: Config = {
             "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
         },
         theme: {
-          customCss: "./src/css/custom.css",
+          customCss: require.resolve("./src/css/custom.css"),
         },
-      }
+      },
     ],
   ],
 
@@ -90,16 +91,16 @@ const config: Config = {
     {
       // Replace with your project's social card
       image: "/overview.png",
-      
-    colorMode: {
-      defaultMode: 'dark',
-      disableSwitch: false,
-      respectPrefersColorScheme: false,
-    },
+
+      colorMode: {
+        defaultMode: "dark",
+        disableSwitch: false,
+        respectPrefersColorScheme: false,
+      },
       navbar: {
-        style: "primary",
+        style: "dark",
         logo: {
-          alt: "Ever® Platform Logo",
+          alt: "Ever® Demand Logo",
           src: "img/ever.png",
           srcDark: "img/ever-dark.png",
         },
@@ -117,13 +118,14 @@ const config: Config = {
             position: "left",
           },
           {
-            href: "https://github.com/ever-co/ever-demand",
-            label: "GitHub",
+            type: "localeDropdown",
             position: "right",
           },
           {
-            type: "localeDropdown",
+            href: "https://github.com/ever-co/ever-demand",
+            label: "GitHub",
             position: "right",
+            className: "header-github-link",
           },
         ],
       },
@@ -182,11 +184,12 @@ const config: Config = {
             ],
           },
         ],
-        copyright: `Copyright © 2018-${new Date().getFullYear()} Ever Co. LTD.<br/>This website was created with <img src="/img/docusaurus.svg" width="20"> Docusaurus.`,
+        copyright: `<p>Copyright © 2018-${new Date().getFullYear()} Ever Co. LTD.<br/>This website was created with</p> <p><img src="/img/docusaurus.svg" width="20"> Docusaurus.</p>`,
       },
+      themes: ["docusaurus-theme-redoc"],
       prism: {
         theme: prismThemes.github,
-        darkTheme: prismThemes.dracula,
+        darkTheme: prismThemes.oneDark,
       },
     },
 };
