@@ -359,11 +359,12 @@ img {
 [data-theme="dark"] .footer.footer--dark {
   background-color: transparent !important;
 }
+
 .docs-wrapper footer.footer .footer__copyright {
   display: flex;
-  justify-content: space-between;
+  justify-content:center;
   align-items: center;
-  color:var(--menu-link-color);
+  color: var(--menu-link-color);
 }
 .docs-wrapper footer.footer .footer__links {
   display: none;

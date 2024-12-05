@@ -195,7 +195,7 @@ const config: Config = {
             ],
           },
         ],
-        copyright: `<p>Copyright © 2018-${new Date().getFullYear()} Ever Co. LTD.<br/>This website was created with</p> <p><img src="/img/docusaurus.svg" width="20"> Docusaurus.</p>`,
+        copyright: `<p>Copyright © 2018-${new Date().getFullYear()} Ever Co. LTD.</p>`,
       },
       themes: ["docusaurus-theme-redoc"],
       prism: {
