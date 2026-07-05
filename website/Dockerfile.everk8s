@@ -1,0 +1,51 @@
+# syntax=docker/dockerfile:1
+# ever-demand-docs — Docusaurus 3.6.3 static site.
+# Build context sub-path = website/ (the Docusaurus app root). Docs/i18n/static all live under website/.
+# Produces a static bundle in website/build, served by nginx.
+
+########################################
+# Stage 1 — build the static site
+########################################
+FROM node:20-alpine AS build
+
+# Native build deps occasionally needed by Docusaurus/sharp-adjacent transitive packages.
+RUN apk add --no-cache python3 make g++ git
+
+WORKDIR /app
+
+# Optional private-registry auth (repo uses only public deps, but keep parity with the migration wave).
+ARG NPM_TOKEN=""
+RUN if [ -n "$NPM_TOKEN" ]; then \
+      printf '//registry.npmjs.org/:_authToken=%s\n' "$NPM_TOKEN" > /root/.npmrc; \
+    fi
+
+# The Kaniko context-sub-path is `website/`, so the build context root IS the Docusaurus app.
+COPY . /app/
+
+# The committed config declares `themes: ["docusaurus-theme-redoc"]` but that package is NOT in
+# package.json / yarn.lock and there is no OpenAPI/redoc spec anywhere in the site — it is a stale,
+# unused reference that breaks `docusaurus build` with a module-not-found error. Strip that one theme
+# entry so the build succeeds with the exact locked dependency set (CI runs a non-frozen install and
+# would fail identically). Everything else is left untouched.
+RUN sed -i '/themes:\s*\["docusaurus-theme-redoc"\],/d' docusaurus.config.ts
+
+# Install (CI uses a non-frozen `yarn install`; mirror that to tolerate the config not needing redoc).
+RUN yarn install --frozen-lockfile --network-timeout 600000
+
+# Build the static site. Large i18n docs set → raise the heap like CI does.
+ENV NODE_ENV=production
+ENV NODE_OPTIONS=--max_old_space_size=7168
+RUN yarn build
+
+# Clean up any registry credential.
+RUN rm -f /root/.npmrc
+
+########################################
+# Stage 2 — serve the static bundle
+########################################
+FROM nginx:alpine
+
+# Docusaurus is a multi-page static site; default nginx config serves it correctly.
+COPY --from=build /app/build /usr/share/nginx/html
+
+EXPOSE 80
