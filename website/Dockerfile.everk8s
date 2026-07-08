@@ -35,7 +35,7 @@ RUN yarn install --frozen-lockfile --network-timeout 600000
 # Build the static site. Large i18n docs set → raise the heap like CI does.
 ENV NODE_ENV=production
 ENV NODE_OPTIONS=--max_old_space_size=7168
-RUN yarn build
+RUN yarn build --locale en
 
 # Clean up any registry credential.
 RUN rm -f /root/.npmrc
