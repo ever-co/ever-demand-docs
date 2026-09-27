@@ -48,4 +48,7 @@ FROM nginx:alpine
 # Docusaurus is a multi-page static site; default nginx config serves it correctly.
 COPY --from=build /app/build /usr/share/nginx/html
 
+# Serve directory redirects RELATIVE, not absolute. See nginx-default.conf for why.
+COPY nginx-default.conf /etc/nginx/conf.d/default.conf
+
 EXPOSE 80

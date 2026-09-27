@@ -32,11 +32,24 @@ const config: Config = {
   tagline:
     "Open-Source, On-Demand Commerce Platform, Real-Time, Reactive build with TypeScript",
   favicon: "img/favicon.png",
-  // Set the production Url of your site here
-  url: "https://docs.ever.co", // Your website URL
+  // Set the production Url of your site here.
+  //
+  // This origin is stamped into EVERY canonical, og:url, og:image, hreflang alternate and sitemap
+  // entry. It used to say https://docs.ever.co (copied from ever-docs), so every page served on
+  // docs.everdemand.co told search engines that its real URL lived on docs.ever.co: a cross-domain
+  // canonical that hands indexing of this whole site to another domain. Measured on 2026-09-27: 6 of
+  // 6 sampled pages and all 12 sitemap entries pointed at docs.ever.co.
+  url: "https://docs.everdemand.co", // Your website URL
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
+  // Emit every URL with a trailing slash, matching how the site is actually served.
+  //
+  // The build writes each route as a directory (help/index.html), so nginx answers /help with a
+  // 301 to /help/. Without this flag the canonical, og:url, sitemap and internal links all used the
+  // slash-less form, so each canonical pointed at a redirect instead of at the page itself
+  // (measured on 2026-09-27: 10 of 12 sitemap entries answered 301).
+  trailingSlash: true,
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -50,24 +63,23 @@ const config: Config = {
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
+  // Locales advertised to visitors.
+  //
+  // Docusaurus renders a language dropdown AND an hreflang alternate for EVERY locale listed here,
+  // but the Docker build runs a single-locale build (see the --locale flag in Dockerfile.everk8s) and
+  // so only emits English. The other twelve were advertised from every page and all returned 404
+  // (measured on docs.everdemand.co/fr/ on 2026-09-27), which is the same defect ever-docs fixed.
+  //
+  // Translation sources for all thirteen exist under docs/i18n, so nothing is lost here. To turn one
+  // back on it must be BOTH listed below AND built: drop that flag in Dockerfile.everk8s, which then
+  // builds every declared locale, or pass the locale explicitly. Adding a locale here alone just
+  // recreates the 404s.
   i18n: {
     path: "./docs/i18n/",
     defaultLocale: "en",
-    locales: [
-      "en",
-      "fr",
-      "ar",
-      "bg",
-      "zh",
-      "nl",
-      "de",
-      "he",
-      "it",
-      "pl",
-      "pt",
-      "ru",
-      "es",
-    ],
+    locales: ["en"],
+    // Ready to re-enable once they are built:
+    // "fr", "ar", "bg", "zh", "nl", "de", "he", "it", "pl", "pt", "ru", "es"
   },
 
   presets: [
