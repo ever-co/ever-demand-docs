@@ -1,4 +1,7 @@
-FROM node:16-alpine3.14
+FROM node:26.12.1-alpine3.23
+
+# node:26 images no longer bundle Yarn. Install Yarn classic (matches yarn.lock).
+RUN npm install yarn -g --force
 
 WORKDIR /app/website
 
