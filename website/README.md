@@ -33,7 +33,7 @@ This command starts a local development server on <http://localhost:3000> and op
 | `yarn clear` | Clears the Docusaurus cache (`.docusaurus`, `build`). Use it when the dev server behaves strangely after a config or dependency change. |
 | `yarn typecheck` | Runs the TypeScript compiler (`tsc`) over the site's TypeScript files (config, sidebars and `src/`). |
 | `yarn spellcheck` | Runs [cspell](https://cspell.org/) using `.cspell.json` at the repository root. Add legitimate product or technical terms to its `words` list. |
-| `yarn write-heading-ids` | Adds explicit heading IDs to Markdown files, which keeps anchor links stable. |
+| `yarn write-heading-ids . "docs/*.md"` | Adds explicit heading IDs to Markdown files, which keeps anchor links stable. It only processes the files you name, so pass the site directory and a file or glob argument (run without arguments it changes nothing). |
 
 ## Adding or editing a page
 
@@ -79,7 +79,7 @@ Only the English locale is enabled (`locales: ["en"]` in `docusaurus.config.ts`)
 To publish another locale, **both** of these must be done:
 
 1. Add it to `locales` in `docusaurus.config.ts`.
-2. Remove the `--locale en` flag from the build command in `website/Dockerfile.everk8s` (or pass the locale explicitly), so that locale is actually built.
+2. Remove the `--locale en` flag from the build command in `website/Dockerfile.everk8s`, so that every locale declared in the config is built. Do not replace it with a single other locale (for example `--locale fr`): a build limited to one locale emits only that locale and would drop the English site from the image.
 
 ## Docker image
 
