@@ -46,5 +46,5 @@ Do **not** open a public GitHub issue for a security problem. Send the details b
 ## See also
 
 - [Introduction](INTRODUCTION.md)
-- [Contact Us](CONTACT.md)
-- [Changelog](CHANGELOG.md)
+- [Contact page on ever.co](https://ever.co/contacts)
+- [Docs repository on GitHub](https://github.com/ever-co/ever-demand-docs)
