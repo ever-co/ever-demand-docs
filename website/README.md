@@ -94,7 +94,6 @@ The site is then available on <http://localhost:8080>. The build context is the 
 
 ## Troubleshooting
 
-- **Build fails with a module-not-found error for `docusaurus-theme-redoc`** – `docusaurus.config.ts` still lists `themes: ["docusaurus-theme-redoc"]`, but that package is not in `package.json` and the site has no OpenAPI spec. The Dockerfile deletes that one line before building. For a local build, remove the line yourself and do not commit the change. (This is taken from the comment in `Dockerfile.everk8s`; it was not reproduced locally.)
 - **Stale content or odd errors after pulling changes** – run `yarn clear`, then `yarn start` again.
 - **Build runs out of memory** – the Docker build raises the heap with `NODE_OPTIONS=--max_old_space_size=7168`; do the same locally if the full build fails with an out-of-memory error.
 
