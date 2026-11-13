@@ -4,8 +4,6 @@ title: Support
 sidebar_position: 3
 ---
 
-# Support
-
 This page lists where to ask a question, report a problem or suggest an improvement for Ever Demand and for this documentation site. Pick the row that matches what you need.
 
 ## Which channel should I use?
@@ -16,7 +14,7 @@ This page lists where to ask a question, report a problem or suggest an improvem
 | Get one-to-one help from a developer          | [Codementor](https://www.codementor.io/evereq)                                            |
 | Suggest a new feature                         | [Feature requests repository](https://github.com/ever-co/feature-requests/issues)         |
 | Report a mistake or gap in these docs         | [Issues of the docs repository](https://github.com/ever-co/ever-demand-docs/issues)       |
-| Fix a mistake in these docs yourself          | Open a pull request against the `develop` branch of the docs repository                   |
+| Fix a mistake in these docs yourself          | Open a pull request against the `develop` branch of the [docs repository](https://github.com/ever-co/ever-demand-docs) |
 | Talk about a business or licensing question   | [ever@ever.co](mailto:ever@ever.co) or the [contact page](https://ever.co/contacts)       |
 | Report a security vulnerability               | [security@ever.co](mailto:security@ever.co) (see below)                                   |
 
@@ -36,7 +34,7 @@ Please do not paste passwords, API keys, tokens or the contents of your `.env` f
 If a page is wrong, out of date or missing, open an issue in the [docs repository](https://github.com/ever-co/ever-demand-docs/issues) and name the page. To fix it yourself, follow the steps in the repository README:
 
 1. Clone the repository and run `yarn install` from the `website` folder.
-2. Run `yarn start` and open http://localhost:3000 to preview your change.
+2. Run `yarn start` and open <http://localhost:3000> to preview your change.
 3. Open a pull request against the `develop` branch.
 
 ## Report a security vulnerability
@@ -46,5 +44,6 @@ Do **not** open a public GitHub issue for a security problem. Send the details b
 ## See also
 
 - [Introduction](INTRODUCTION.md)
+- [Changelog](CHANGELOG.md)
 - [Contact page on ever.co](https://ever.co/contacts)
 - [Docs repository on GitHub](https://github.com/ever-co/ever-demand-docs)
