@@ -58,7 +58,12 @@ const config: Config = {
   projectName: "ever-demand-docs",
 
   onBrokenLinks: "throw",
-  onBrokenMarkdownLinks: "warn",
+  // Docusaurus 3.9 moved onBrokenMarkdownLinks from the top level to markdown.hooks.
+  markdown: {
+    hooks: {
+      onBrokenMarkdownLinks: "warn",
+    },
+  },
   staticDirectories: ["./docs/assets", "static"],
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
@@ -115,10 +120,14 @@ const config: Config = {
       // Replace with your project's social card
       image: "/overview.png",
 
+      // Follow the visitor's OS theme (prefers-color-scheme) until they pick one in the navbar toggle
+      // or the footer's System / Light / Dark selector (src/theme/Footer/ThemeSelector.tsx). Light is
+      // the fallback when the OS theme can't be read, and src/css/custom.css keeps the page light
+      // without JavaScript, when no data-theme attribute is set at all.
       colorMode: {
-        defaultMode: "dark",
+        defaultMode: "light",
         disableSwitch: false,
-        respectPrefersColorScheme: false,
+        respectPrefersColorScheme: true,
       },
       navbar: {
         style: "dark",
