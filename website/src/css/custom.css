@@ -601,8 +601,3 @@ html[data-theme='dark'] .header-github-link:before {
 .docs-wrapper footer.footer .footer__bottom {
   color: var(--menu-link-color);
 }
-/* `p { color: #111 }` above also hit the copyright, which sits on the dark footer outside docs pages:
-   near-black on #14141f in the light theme. Let it take the footer's colour, like the selector. */
-html:not([data-theme="dark"]) .footer__copyright p {
-  color: inherit;
-}
