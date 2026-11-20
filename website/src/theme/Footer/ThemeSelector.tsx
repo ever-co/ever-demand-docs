@@ -41,7 +41,7 @@ export default function ThemeSelector(): ReactNode {
           <button
             key={choice ?? 'system'}
             type="button"
-            className={clsx(styles.option, pressed && styles.optionPressed)}
+            className={clsx(styles.option, pressed && styles['option-pressed'])}
             aria-label={label}
             title={label}
             aria-pressed={pressed}

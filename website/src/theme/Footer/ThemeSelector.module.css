@@ -1,6 +1,6 @@
 /*
  * A small segmented track of three icon buttons. The footer is dark on some pages and transparent
- * over a light or dark page on others, so the selector draws only in currentColor plus a translucent
+ * over a light or dark page on others, so the selector draws only in currentcolor plus a translucent
  * grey that reads on all of those backgrounds.
  */
 .selector {
@@ -9,9 +9,9 @@
   gap: 2px;
   margin-top: 0.75rem;
   padding: 2px;
-  border: 1px solid rgba(127, 127, 127, 0.35);
+  border: 1px solid rgb(127 127 127 / 35%);
   border-radius: 9999px;
-  background-color: rgba(127, 127, 127, 0.12);
+  background-color: rgb(127 127 127 / 12%);
   vertical-align: middle;
 }
 
@@ -39,12 +39,12 @@
 }
 
 .option:focus-visible {
-  outline: 2px solid currentColor;
+  outline: 2px solid currentcolor;
   outline-offset: 1px;
 }
 
-.optionPressed {
-  background-color: rgba(127, 127, 127, 0.3);
+.option-pressed {
+  background-color: rgb(127 127 127 / 30%);
   opacity: 1;
 }
 
