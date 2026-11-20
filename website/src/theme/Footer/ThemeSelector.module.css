@@ -1,0 +1,54 @@
+/*
+ * A small segmented track of three icon buttons. The footer is dark on some pages and transparent
+ * over a light or dark page on others, so the selector draws only in currentColor plus a translucent
+ * grey that reads on all of those backgrounds.
+ */
+.selector {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+  margin-top: 0.75rem;
+  padding: 2px;
+  border: 1px solid rgba(127, 127, 127, 0.35);
+  border-radius: 9999px;
+  background-color: rgba(127, 127, 127, 0.12);
+  vertical-align: middle;
+}
+
+.option {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  padding: 0;
+  border: 0;
+  border-radius: 9999px;
+  background-color: transparent;
+  color: inherit;
+  opacity: 0.65;
+  cursor: pointer;
+  transition:
+    background-color var(--ifm-transition-fast) ease,
+    opacity var(--ifm-transition-fast) ease;
+}
+
+.option:hover,
+.option:focus-visible {
+  opacity: 1;
+}
+
+.option:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 1px;
+}
+
+.optionPressed {
+  background-color: rgba(127, 127, 127, 0.3);
+  opacity: 1;
+}
+
+.icon {
+  width: 16px;
+  height: 16px;
+}
